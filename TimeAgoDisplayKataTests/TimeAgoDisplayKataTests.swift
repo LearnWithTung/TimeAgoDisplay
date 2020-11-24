@@ -14,16 +14,20 @@ extension Date {
         if secondsAgo == 0 {
             return "Just now"
         }
-        else if secondsAgo < 60 {
+        
+        let minute = 60
+        let hour = 60 * minute
+        
+        if secondsAgo < minute {
             return "\(secondsAgo) seconds ago"
         }
         
-        let minutesAgo = secondsAgo / 60
+        let minutesAgo = secondsAgo / minute
         if minutesAgo < 60 {
             return minutesAgo == 1 ? "a minute ago" : "\(minutesAgo) minutes ago"
         }
         
-        let hoursAgo = secondsAgo / 3600
+        let hoursAgo = secondsAgo / hour
         return hoursAgo == 1 ? "a hour ago" : "\(hoursAgo) hours ago"
     }
 }
