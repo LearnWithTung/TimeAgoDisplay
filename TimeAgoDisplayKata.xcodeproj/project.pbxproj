@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DF61F230256D7023003FA262 /* TimeAgoDisplayKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF61F226256D7023003FA262 /* TimeAgoDisplayKata.framework */; };
 		DF61F235256D7023003FA262 /* TimeAgoDisplayKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61F234256D7023003FA262 /* TimeAgoDisplayKataTests.swift */; };
-		DF61F237256D7023003FA262 /* TimeAgoDisplayKata.h in Headers */ = {isa = PBXBuildFile; fileRef = DF61F229256D7023003FA262 /* TimeAgoDisplayKata.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		DF61F226256D7023003FA262 /* TimeAgoDisplayKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeAgoDisplayKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF61F229256D7023003FA262 /* TimeAgoDisplayKata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAgoDisplayKata.h; sourceTree = "<group>"; };
 		DF61F22A256D7023003FA262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF61F22F256D7023003FA262 /* TimeAgoDisplayKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeAgoDisplayKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF61F234256D7023003FA262 /* TimeAgoDisplayKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAgoDisplayKataTests.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		DF61F228256D7023003FA262 /* TimeAgoDisplayKata */ = {
 			isa = PBXGroup;
 			children = (
-				DF61F229256D7023003FA262 /* TimeAgoDisplayKata.h */,
 				DF61F22A256D7023003FA262 /* Info.plist */,
 			);
 			path = TimeAgoDisplayKata;
@@ -93,7 +90,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF61F237256D7023003FA262 /* TimeAgoDisplayKata.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
