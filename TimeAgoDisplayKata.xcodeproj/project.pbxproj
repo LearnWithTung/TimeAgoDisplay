@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF61F230256D7023003FA262 /* TimeAgoDisplayKata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF61F226256D7023003FA262 /* TimeAgoDisplayKata.framework */; };
+		DF61F235256D7023003FA262 /* TimeAgoDisplayKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61F234256D7023003FA262 /* TimeAgoDisplayKataTests.swift */; };
+		DF61F237256D7023003FA262 /* TimeAgoDisplayKata.h in Headers */ = {isa = PBXBuildFile; fileRef = DF61F229256D7023003FA262 /* TimeAgoDisplayKata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF61F231256D7023003FA262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF61F21D256D7023003FA262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF61F225256D7023003FA262;
+			remoteInfo = TimeAgoDisplayKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF61F226256D7023003FA262 /* TimeAgoDisplayKata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeAgoDisplayKata.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF61F229256D7023003FA262 /* TimeAgoDisplayKata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeAgoDisplayKata.h; sourceTree = "<group>"; };
+		DF61F22A256D7023003FA262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF61F22F256D7023003FA262 /* TimeAgoDisplayKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeAgoDisplayKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF61F234256D7023003FA262 /* TimeAgoDisplayKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAgoDisplayKataTests.swift; sourceTree = "<group>"; };
+		DF61F236256D7023003FA262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF61F223256D7023003FA262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF61F22C256D7023003FA262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF61F230256D7023003FA262 /* TimeAgoDisplayKata.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF61F21C256D7023003FA262 = {
+			isa = PBXGroup;
+			children = (
+				DF61F228256D7023003FA262 /* TimeAgoDisplayKata */,
+				DF61F233256D7023003FA262 /* TimeAgoDisplayKataTests */,
+				DF61F227256D7023003FA262 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF61F227256D7023003FA262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF61F226256D7023003FA262 /* TimeAgoDisplayKata.framework */,
+				DF61F22F256D7023003FA262 /* TimeAgoDisplayKataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF61F228256D7023003FA262 /* TimeAgoDisplayKata */ = {
+			isa = PBXGroup;
+			children = (
+				DF61F229256D7023003FA262 /* TimeAgoDisplayKata.h */,
+				DF61F22A256D7023003FA262 /* Info.plist */,
+			);
+			path = TimeAgoDisplayKata;
+			sourceTree = "<group>";
+		};
+		DF61F233256D7023003FA262 /* TimeAgoDisplayKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF61F234256D7023003FA262 /* TimeAgoDisplayKataTests.swift */,
+				DF61F236256D7023003FA262 /* Info.plist */,
+			);
+			path = TimeAgoDisplayKataTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DF61F221256D7023003FA262 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF61F237256D7023003FA262 /* TimeAgoDisplayKata.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DF61F225256D7023003FA262 /* TimeAgoDisplayKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF61F23A256D7023003FA262 /* Build configuration list for PBXNativeTarget "TimeAgoDisplayKata" */;
+			buildPhases = (
+				DF61F221256D7023003FA262 /* Headers */,
+				DF61F222256D7023003FA262 /* Sources */,
+				DF61F223256D7023003FA262 /* Frameworks */,
+				DF61F224256D7023003FA262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeAgoDisplayKata;
+			productName = TimeAgoDisplayKata;
+			productReference = DF61F226256D7023003FA262 /* TimeAgoDisplayKata.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF61F22E256D7023003FA262 /* TimeAgoDisplayKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF61F23D256D7023003FA262 /* Build configuration list for PBXNativeTarget "TimeAgoDisplayKataTests" */;
+			buildPhases = (
+				DF61F22B256D7023003FA262 /* Sources */,
+				DF61F22C256D7023003FA262 /* Frameworks */,
+				DF61F22D256D7023003FA262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF61F232256D7023003FA262 /* PBXTargetDependency */,
+			);
+			name = TimeAgoDisplayKataTests;
+			productName = TimeAgoDisplayKataTests;
+			productReference = DF61F22F256D7023003FA262 /* TimeAgoDisplayKataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF61F21D256D7023003FA262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					DF61F225256D7023003FA262 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					DF61F22E256D7023003FA262 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = DF61F220256D7023003FA262 /* Build configuration list for PBXProject "TimeAgoDisplayKata" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF61F21C256D7023003FA262;
+			productRefGroup = DF61F227256D7023003FA262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF61F225256D7023003FA262 /* TimeAgoDisplayKata */,
+				DF61F22E256D7023003FA262 /* TimeAgoDisplayKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF61F224256D7023003FA262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF61F22D256D7023003FA262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF61F222256D7023003FA262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF61F22B256D7023003FA262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF61F235256D7023003FA262 /* TimeAgoDisplayKataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF61F232256D7023003FA262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF61F225256D7023003FA262 /* TimeAgoDisplayKata */;
+			targetProxy = DF61F231256D7023003FA262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF61F238256D7023003FA262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF61F239256D7023003FA262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF61F23B256D7023003FA262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2J95SR9C7R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TimeAgoDisplayKata/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungvd.TimeAgoDisplayKata;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF61F23C256D7023003FA262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2J95SR9C7R;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TimeAgoDisplayKata/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungvd.TimeAgoDisplayKata;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF61F23E256D7023003FA262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2J95SR9C7R;
+				INFOPLIST_FILE = TimeAgoDisplayKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungvd.TimeAgoDisplayKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF61F23F256D7023003FA262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2J95SR9C7R;
+				INFOPLIST_FILE = TimeAgoDisplayKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tungvd.TimeAgoDisplayKataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF61F220256D7023003FA262 /* Build configuration list for PBXProject "TimeAgoDisplayKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF61F238256D7023003FA262 /* Debug */,
+				DF61F239256D7023003FA262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF61F23A256D7023003FA262 /* Build configuration list for PBXNativeTarget "TimeAgoDisplayKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF61F23B256D7023003FA262 /* Debug */,
+				DF61F23C256D7023003FA262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF61F23D256D7023003FA262 /* Build configuration list for PBXNativeTarget "TimeAgoDisplayKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF61F23E256D7023003FA262 /* Debug */,
+				DF61F23F256D7023003FA262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF61F21D256D7023003FA262 /* Project object */;
+}
