@@ -18,6 +18,7 @@ extension Date {
         let minute = 60
         let hour = 60 * minute
         let day = 24 * hour
+        let week = 7 * day
         
         if secondsAgo < minute {
             return "\(secondsAgo) seconds ago"
@@ -34,7 +35,12 @@ extension Date {
         }
         
         let daysAgo = secondsAgo / day
-        return daysAgo == 1 ? "a day ago" : "\(daysAgo) days ago"
+        if daysAgo < 7 {
+            return daysAgo == 1 ? "a day ago" : "\(daysAgo) days ago"
+        }
+        
+        let weeksAgo = secondsAgo / week
+        return weeksAgo == 1 ? "a week ago" : "\(weeksAgo) weeks ago"
     }
 }
 
@@ -89,8 +95,19 @@ class TimeAgoDisplayKataTests: XCTestCase {
         let date2 = Date(timeIntervalSinceNow: -60 * 60 * 24 * 2)
         XCTAssertEqual(date2.timeAgoDisplay(), "2 days ago")
 
-        let date3 = Date(timeIntervalSinceNow: -60 * 60 * 24 * 10)
-        XCTAssertEqual(date3.timeAgoDisplay(), "10 days ago")
+        let date3 = Date(timeIntervalSinceNow: -60 * 60 * 24 * 6)
+        XCTAssertEqual(date3.timeAgoDisplay(), "6 days ago")
+    }
+    
+    func test_weeksAgo_returnsFormattedDisplay(){
+        let date1 = Date(timeIntervalSinceNow: -60 * 60 * 24 * 7)
+        XCTAssertEqual(date1.timeAgoDisplay(), "a week ago")
+        
+        let date2 = Date(timeIntervalSinceNow: -60 * 60 * 24 * 7 * 2)
+        XCTAssertEqual(date2.timeAgoDisplay(), "2 weeks ago")
+
+        let date3 = Date(timeIntervalSinceNow: -60 * 60 * 24 * 7 * 10)
+        XCTAssertEqual(date3.timeAgoDisplay(), "10 weeks ago")
     }
     
 }
