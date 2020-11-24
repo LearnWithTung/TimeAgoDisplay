@@ -6,8 +6,11 @@
 //
 
 import XCTest
-@testable import TimeAgoDisplayKata
 
 class TimeAgoDisplayKataTests: XCTestCase {
 
+    func test_fail(){
+        XCTFail()
+    }
+    
 }
