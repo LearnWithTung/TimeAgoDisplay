@@ -26,10 +26,18 @@ class TimeAgoDisplayKataTests: XCTestCase {
         XCTAssertEqual(date.timeAgoDisplay(), "Just now")
     }
     
-    func test_fiveSecondsAgo_returnsFormattedDisplay(){
-        let date = Date(timeIntervalSinceNow: -5)
+    func test_secondsAgo_returnsFormattedDisplay(){
+        let date1 = Date(timeIntervalSinceNow: -5)
         
-        XCTAssertEqual(date.timeAgoDisplay(), "5 seconds ago")
+        XCTAssertEqual(date1.timeAgoDisplay(), "5 seconds ago")
+        
+        let date2 = Date(timeIntervalSinceNow: -10)
+        
+        XCTAssertEqual(date2.timeAgoDisplay(), "10 seconds ago")
+        
+        let date3 = Date(timeIntervalSinceNow: -55)
+        
+        XCTAssertEqual(date3.timeAgoDisplay(), "55 seconds ago")
     }
     
 }
