@@ -10,7 +10,11 @@ import XCTest
 extension Date {
     
     func timeAgoDisplay() -> String{
-        return "Just now"
+        let secondsAgo = Int(Date().timeIntervalSince(self))
+        if secondsAgo == 0 {
+            return "Just now"
+        }
+        return "\(secondsAgo) seconds ago"
     }
 }
 
@@ -20,6 +24,12 @@ class TimeAgoDisplayKataTests: XCTestCase {
         let date = Date()
         
         XCTAssertEqual(date.timeAgoDisplay(), "Just now")
+    }
+    
+    func test_fiveSecondsAgo_returnsFormattedDisplay(){
+        let date = Date(timeIntervalSinceNow: -5)
+        
+        XCTAssertEqual(date.timeAgoDisplay(), "5 seconds ago")
     }
     
 }
