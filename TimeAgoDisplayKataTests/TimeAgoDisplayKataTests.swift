@@ -14,7 +14,11 @@ extension Date {
         if secondsAgo == 0 {
             return "Just now"
         }
-        return "\(secondsAgo) seconds ago"
+        else if secondsAgo < 60 {
+            return "\(secondsAgo) seconds ago"
+        }
+        let minutesAgo = secondsAgo / 60
+        return minutesAgo == 1 ? "a minute ago" : "\(minutesAgo) minutes ago"
     }
 }
 
@@ -36,8 +40,19 @@ class TimeAgoDisplayKataTests: XCTestCase {
         XCTAssertEqual(date2.timeAgoDisplay(), "10 seconds ago")
         
         let date3 = Date(timeIntervalSinceNow: -55)
-        
+
         XCTAssertEqual(date3.timeAgoDisplay(), "55 seconds ago")
+    }
+    
+    func test_minutesAgo_returnsFormattedDisplay(){
+        let date1 = Date(timeIntervalSinceNow: -60)
+        XCTAssertEqual(date1.timeAgoDisplay(), "a minute ago")
+        
+        let date2 = Date(timeIntervalSinceNow: -60 * 2)
+        XCTAssertEqual(date2.timeAgoDisplay(), "2 minutes ago")
+        
+        let date3 = Date(timeIntervalSinceNow: -60 * 50)
+        XCTAssertEqual(date3.timeAgoDisplay(), "50 minutes ago")
     }
     
 }
