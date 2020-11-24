@@ -7,10 +7,19 @@
 
 import XCTest
 
+extension Date {
+    
+    func timeAgoDisplay() -> String{
+        return "Just now"
+    }
+}
+
 class TimeAgoDisplayKataTests: XCTestCase {
 
-    func test_fail(){
-        XCTFail()
+    func test_currentDate_returnsFormattedDisplay(){
+        let date = Date()
+        
+        XCTAssertEqual(date.timeAgoDisplay(), "Just now")
     }
     
 }
